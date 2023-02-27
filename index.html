@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente</p>
+                <form action="login.php" method="post">
+                    <label for="iusuario"><span id="bonequinho" class="material-symbols-outlined">
+                        person
+                        </span></label>
+                    <input type="email" name="Usuário" id="iusuario" required="required" autocomplete="on" placeholder="seu e-mail"> <br>
+                    <label for="isenha"><span id="chave" class="material-symbols-outlined">
+                        key
+                        </span></label>
+                    <input type="password" name="senha" id="isenha" required="required" placeholder="sua senha"><br>
+                    <input id="botao-entrar" type="submit" value="Entrar">
+                    <input type="button" value="Esqueci a senha">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
